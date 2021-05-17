@@ -13,7 +13,7 @@
 		7FB5D09B2523A88C005B32FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB5D09A2523A88C005B32FB /* Preview Assets.xcassets */; };
 		7FB5D0A62523A88C005B32FB /* HangmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5D0A52523A88C005B32FB /* HangmanTests.swift */; };
 		7FB5D0B12523A88D005B32FB /* HangmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5D0B02523A88D005B32FB /* HangmanUITests.swift */; };
-		7FB5D0C22523A8D7005B32FB /* HangmanState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5D0C12523A8D7005B32FB /* HangmanState.swift */; };
+		7FB5D0C22523A8D7005B32FB /* HangmanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5D0C12523A8D7005B32FB /* HangmanViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 		7FB5D0AC2523A88D005B32FB /* HangmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangmanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB5D0B02523A88D005B32FB /* HangmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanUITests.swift; sourceTree = "<group>"; };
 		7FB5D0B22523A88D005B32FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FB5D0C12523A8D7005B32FB /* HangmanState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanState.swift; sourceTree = "<group>"; };
+		7FB5D0C12523A8D7005B32FB /* HangmanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 			children = (
 				7FB5D0932523A885005B32FB /* HangmanApp.swift */,
 				7FB5D0952523A885005B32FB /* ContentView.swift */,
-				7FB5D0C12523A8D7005B32FB /* HangmanState.swift */,
+				7FB5D0C12523A8D7005B32FB /* HangmanViewModel.swift */,
 				7FB5D0972523A88C005B32FB /* Assets.xcassets */,
 				7FB5D09C2523A88C005B32FB /* Info.plist */,
 				7FB5D0992523A88C005B32FB /* Preview Content */,
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FB5D0962523A885005B32FB /* ContentView.swift in Sources */,
-				7FB5D0C22523A8D7005B32FB /* HangmanState.swift in Sources */,
+				7FB5D0C22523A8D7005B32FB /* HangmanViewModel.swift in Sources */,
 				7FB5D0942523A885005B32FB /* HangmanApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
